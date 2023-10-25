@@ -1,5 +1,6 @@
 <?php
 
+use App\Patterns\AbstractFactory\Client as AbstractClient;
 use App\Patterns\Factory\Client;
 use Illuminate\Support\Facades\Route;
 
@@ -18,4 +19,7 @@ Route::get('/', function () {
     $client = new Client();
     $client->init();
     $client->getShape('circle');
+
+    $abstractClient = new AbstractClient();
+    $abstractClient->init();
 });
