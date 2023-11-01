@@ -1,7 +1,9 @@
 <?php
 
-use App\Patterns\AbstractFactory\Client as AbstractClient;
-use App\Patterns\Factory\Client;
+use App\Patterns\Creational\AbstractFactory\Client as AbstractClient;
+use App\Patterns\Creational\Builder\TestBuilder;
+use App\Patterns\Creational\Factory\Client;
+use App\Patterns\Creational\Singleton\TestSingleton;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,8 +20,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $client = new Client();
     $client->init();
-    $client->getShape('circle');
+    $client->getShape();
 
     $abstractClient = new AbstractClient();
     $abstractClient->init();
+
+    $testSingleton = new TestSingleton();
+    $testSingleton->init();
+
+    $testBuilder = new TestBuilder();
+    $testBuilder->init();
 });

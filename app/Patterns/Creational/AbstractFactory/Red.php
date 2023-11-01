@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Patterns\AbstractFactory;
+namespace App\Patterns\Creational\AbstractFactory;
 
-class Blue implements Color
+class Red implements Color
 {
     public function fill(): void
     {

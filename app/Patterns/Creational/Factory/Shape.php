@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Patterns\AbstractFactory;
+namespace App\Patterns\Creational\Factory;
 
 interface Shape
 {

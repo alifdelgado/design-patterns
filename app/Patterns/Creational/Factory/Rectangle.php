@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Patterns\Factory;
+namespace App\Patterns\Creational\Factory;
 
-class Circle implements Shape
+class Rectangle implements Shape
 {
     public function draw(): void
     {
