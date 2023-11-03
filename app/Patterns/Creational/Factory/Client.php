@@ -4,7 +4,7 @@ namespace App\Patterns\Creational\Factory;
 
 class Client
 {
-    public function init(): void
+    public function init(): Client
     {
         (new RectangleFactory())
             ->getShape()
@@ -15,6 +15,8 @@ class Client
         (new SquareFactory())
             ->getShape()
             ->draw();
+
+        return $this;
     }
 
     public function getShape(): void
