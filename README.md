@@ -6,3 +6,12 @@ Creational Design Patterns:
 
 - Factory.
 - Abstract Factory.
+- Singleton
+- Builder
+- Prototype
+
+Structural Design Patterns:
+
+- Adapter
+- Bridge
+- Composite
