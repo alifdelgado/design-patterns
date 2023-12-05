@@ -7,6 +7,7 @@ use App\Patterns\Structural\Bridge\TestBridge;
 use App\Patterns\Structural\Composite\Company;
 use App\Patterns\Structural\Decorator\TestDecorator;
 use App\Patterns\Structural\Facade\TestFacade;
+use App\Patterns\Structural\Flyweight\TestFlyweight;
 
 class TestStructural
 {
@@ -17,7 +18,7 @@ class TestStructural
         (new Company())->init();
         (new TestDecorator())->init();
         (new TestFacade())->init();
-        // (new TestFlyweight())->init();
+        (new TestFlyweight())->init();
         // (new TestProxy())->init();
     }
 }

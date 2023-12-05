@@ -17,3 +17,4 @@ Structural Design Patterns:
 - Composite
 - Decorator
 - Facade
+- Flyweight
