@@ -18,3 +18,4 @@ Structural Design Patterns:
 - Decorator
 - Facade
 - Flyweight
+- Proxy
