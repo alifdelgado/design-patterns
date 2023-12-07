@@ -1,5 +1,6 @@
 <?php
 
+use App\Patterns\Behavioral\TestBehavioral;
 use App\Patterns\Creational\TestCreational;
 use App\Patterns\Structural\TestStructural;
 use Illuminate\Support\Facades\Route;
@@ -18,4 +19,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     (new TestCreational())->init();
     (new TestStructural())->init();
+    (new TestBehavioral())->init();
 });
