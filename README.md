@@ -19,3 +19,7 @@ Structural Design Patterns:
 - Facade
 - Flyweight
 - Proxy
+
+Behavioral Design Patterns:
+
+- Chain of responsibility
