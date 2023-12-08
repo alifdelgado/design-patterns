@@ -23,3 +23,4 @@ Structural Design Patterns:
 Behavioral Design Patterns:
 
 - Chain of responsibility
+- Command
