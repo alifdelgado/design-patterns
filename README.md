@@ -25,3 +25,4 @@ Behavioral Design Patterns:
 - Chain of responsibility
 - Command
 - Interpreter
+- Iterator

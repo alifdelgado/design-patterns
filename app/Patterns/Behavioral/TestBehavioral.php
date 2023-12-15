@@ -5,6 +5,7 @@ namespace App\Patterns\Behavioral;
 use App\Patterns\Behavioral\ChainOfResponsibility\TestChainOfResponsibility;
 use App\Patterns\Behavioral\Command\TestCommand;
 use App\Patterns\Behavioral\Interpreter\TestInterpreter;
+use App\Patterns\Behavioral\Iterator\TestIterator;
 
 class TestBehavioral
 {
@@ -13,7 +14,7 @@ class TestBehavioral
         (new TestChainOfResponsibility())->init();
         (new TestCommand())->init();
         (new TestInterpreter())->init();
-        // (new TestIterator())->init();
+        (new TestIterator())->init();
         // (new TestMediator())->init();
         // (new TestMemento())->init();
         // (new TestObserver())->init();
