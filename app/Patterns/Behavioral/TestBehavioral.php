@@ -7,6 +7,7 @@ use App\Patterns\Behavioral\Command\TestCommand;
 use App\Patterns\Behavioral\Interpreter\TestInterpreter;
 use App\Patterns\Behavioral\Iterator\TestIterator;
 use App\Patterns\Behavioral\Mediator\TestMediator;
+use App\Patterns\Behavioral\Memento\TestMemento;
 
 class TestBehavioral
 {
@@ -17,7 +18,7 @@ class TestBehavioral
         (new TestInterpreter())->init();
         (new TestIterator())->init();
         (new TestMediator())->init();
-        // (new TestMemento())->init();
+        (new TestMemento())->init();
         // (new TestObserver())->init();
         // (new TestState())->init();
         // (new TestStrategy())->init();

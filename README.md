@@ -27,3 +27,4 @@ Behavioral Design Patterns:
 - Interpret
 - Iterator
 - Mediator
+- Memento
