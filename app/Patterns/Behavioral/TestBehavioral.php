@@ -6,6 +6,7 @@ use App\Patterns\Behavioral\ChainOfResponsibility\TestChainOfResponsibility;
 use App\Patterns\Behavioral\Command\TestCommand;
 use App\Patterns\Behavioral\Interpreter\TestInterpreter;
 use App\Patterns\Behavioral\Iterator\TestIterator;
+use App\Patterns\Behavioral\Mediator\TestMediator;
 
 class TestBehavioral
 {
@@ -15,7 +16,7 @@ class TestBehavioral
         (new TestCommand())->init();
         (new TestInterpreter())->init();
         (new TestIterator())->init();
-        // (new TestMediator())->init();
+        (new TestMediator())->init();
         // (new TestMemento())->init();
         // (new TestObserver())->init();
         // (new TestState())->init();
