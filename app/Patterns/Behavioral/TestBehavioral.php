@@ -10,6 +10,7 @@ use App\Patterns\Behavioral\Mediator\TestMediator;
 use App\Patterns\Behavioral\Memento\TestMemento;
 use App\Patterns\Behavioral\Observer\TestObserver;
 use App\Patterns\Behavioral\State\TestState;
+use App\Patterns\Behavioral\Strategy\TestStrategy;
 
 class TestBehavioral
 {
@@ -23,7 +24,7 @@ class TestBehavioral
         (new TestMemento())->init();
         (new TestObserver())->init();
         (new TestState())->init();
-        // (new TestStrategy())->init();
+        (new TestStrategy())->init();
         // (new TestTemplateMethod())->init();
         // (new TestVisitor())->init();
     }

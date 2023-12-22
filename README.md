@@ -30,3 +30,4 @@ Behavioral Design Patterns:
 - Memento
 - Observer
 - State
+- Strategy
