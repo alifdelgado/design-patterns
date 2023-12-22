@@ -29,3 +29,4 @@ Behavioral Design Patterns:
 - Mediator
 - Memento
 - Observer
+- State
