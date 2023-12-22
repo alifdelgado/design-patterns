@@ -28,3 +28,4 @@ Behavioral Design Patterns:
 - Iterator
 - Mediator
 - Memento
+- Observer
