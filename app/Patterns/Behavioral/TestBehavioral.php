@@ -12,6 +12,7 @@ use App\Patterns\Behavioral\Observer\TestObserver;
 use App\Patterns\Behavioral\State\TestState;
 use App\Patterns\Behavioral\Strategy\TestStrategy;
 use App\Patterns\Behavioral\TemplateMethod\TestTemplateMethod;
+use App\Patterns\Behavioral\Visitor\TestVisitor;
 
 class TestBehavioral
 {
@@ -27,6 +28,6 @@ class TestBehavioral
         (new TestState())->init();
         (new TestStrategy())->init();
         (new TestTemplateMethod())->init();
-        // (new TestVisitor())->init();
+        (new TestVisitor())->init();
     }
 }
