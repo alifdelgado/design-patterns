@@ -11,6 +11,7 @@ use App\Patterns\Behavioral\Memento\TestMemento;
 use App\Patterns\Behavioral\Observer\TestObserver;
 use App\Patterns\Behavioral\State\TestState;
 use App\Patterns\Behavioral\Strategy\TestStrategy;
+use App\Patterns\Behavioral\TemplateMethod\TestTemplateMethod;
 
 class TestBehavioral
 {
@@ -25,7 +26,7 @@ class TestBehavioral
         (new TestObserver())->init();
         (new TestState())->init();
         (new TestStrategy())->init();
-        // (new TestTemplateMethod())->init();
+        (new TestTemplateMethod())->init();
         // (new TestVisitor())->init();
     }
 }

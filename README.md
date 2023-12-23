@@ -31,3 +31,4 @@ Behavioral Design Patterns:
 - Observer
 - State
 - Strategy
+- Template Method
